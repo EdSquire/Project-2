@@ -1,0 +1,10 @@
+SELECT AVG (rental_rate) AS average_movie_rental_rate,
+MIN (rental_rate) AS minimum_movie_rental_rate,
+MAX (rental_rate) AS maximum_movie_rental_rate,
+AVG (rental_duration) AS average_rental_duration, 
+MIN (rental_duration) AS minimum_rental_duration, 
+MAX (rental_duration) AS maximum_rental_duration,
+AVG (length) AS average_rental_length,
+MIN (length) AS minimum_rental_length,
+MAX (length) AS maximum_rental_length
+FROM film;
